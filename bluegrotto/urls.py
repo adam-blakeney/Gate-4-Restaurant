@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from reserve.views import get_reserve_list
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', get_reserve_list, name='get_reserve_list')
 ]
