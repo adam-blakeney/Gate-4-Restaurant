@@ -1,5 +1,5 @@
 """
-ASGI config for bluegrotto project.
+ASGI config for gate4 project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
